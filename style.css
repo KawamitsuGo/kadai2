@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(33, 33, 33, 0.1);
+  background-image: url("image/IMG_6291.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.wraper {
+  display: flex;
+}
+
+main {
+  flex: 9;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+header p {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.header_left p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.header_right {
+  margin-left: auto;
+}
+
+.headline {
+  width: 400px;
+  height: 40px;
+  border-left: 2px solid rgba(0, 0, 100, 1);
+  font-size: 20px;
+  background-color: rgba(0, 0, 100, 0.1);
+}
+
+.face {
+  position: relative;
+  width: 300px;
+}
+
+.face_img {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.headline p {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+td,
+th,
+table {
+  border: 1px solid black;
+}
+
+aside {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.bg_color {
+  background-color: rgba(0, 0, 100, 0.1);
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer p {
+  padding-top: 40px;
+  opacity: 0.8;
+}
